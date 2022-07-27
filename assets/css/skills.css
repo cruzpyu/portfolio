@@ -1,0 +1,31 @@
+.skills {
+    margin-top: 8%;
+    text-align: left;
+    padding: 0 10%;
+  }
+  .skills p {
+    margin: 2% auto;
+  }
+  .skills__list {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skills__item {
+    padding: 4%;
+    margin: 4% auto;
+    border: 1px solid silver;
+    box-shadow: 0 1.5px 3px grey;
+    text-align: center;
+    width: 45%;
+    list-style: none;
+    border-radius: 5px;
+  }
+  .skills__icon {
+    width: 60%;
+  }
+  .skills__name {
+    margin-top: 8%;
+    font-weight: bold;
+  }
+  

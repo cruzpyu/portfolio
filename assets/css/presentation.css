@@ -1,0 +1,19 @@
+.presentation {
+    text-align: left;
+    padding: 8%;
+  }
+  
+  .presentation__text h1 {
+    margin-bottom: 0.1em;
+  }
+  .presentation__text h3 {
+    font-weight: 400;
+    width: 80%;
+  }
+  .presentation__text p {
+    width: 80%;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  
+  
