@@ -7,13 +7,14 @@
     margin-bottom: 0.1em;
   }
   .presentation__text h3 {
-    font-weight: 400;
+    margin-top: 4%;
+    font-weight: 600;
     width: 80%;
   }
   .presentation__text p {
     width: 80%;
     margin-top: 10px;
-    font-weight: 300;
+    font-weight: 400;
   }
   
   
