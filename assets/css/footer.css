@@ -1,0 +1,11 @@
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 0.8em;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+.footer p {
+    text-align: center;
+}

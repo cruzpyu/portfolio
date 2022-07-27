@@ -1,0 +1,8 @@
+.courses{
+    width: 80%;
+      margin: 8% auto;
+  }
+  .courses__item {
+      list-style-type: none;
+      margin: 6% auto;
+  }

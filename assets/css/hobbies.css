@@ -1,0 +1,8 @@
+.hobbies {
+  width: 80%;
+    margin: 8% auto;
+}
+.hobbies__item {
+    list-style-type: none;
+    margin: 6% auto;
+}
