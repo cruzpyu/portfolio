@@ -1,16 +1,18 @@
 .presentation {
-    text-align: left;
-    padding: 8%;
+    text-align: center;
+    padding: 15% 5%;
     margin-top: 3%;
   }
   
   .presentation__text h1 {
     margin-bottom: 0.1em;
+    line-height: 1.3em;
+    font-weight: bold;
   }
   .presentation__text h3 {
-    margin-top: 4%;
     font-weight: 600;
-    width: 80%;
+    width: 86%;
+    margin: auto;
   }
   .presentation__text p {
     width: 80%;
@@ -18,4 +20,18 @@
     font-weight: 400;
   }
   
-  
+  .image img {
+    width: 60%;
+    margin: 5% auto;
+  }
+
+  .front {
+    text-decoration: none;
+    background-color: #F2D1D1;
+    color: black;
+    background-blend-mode: multiply;
+  }
+
+  .purple {
+    background-color: #B1BCE6;
+  }

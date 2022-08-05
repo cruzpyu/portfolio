@@ -9,3 +9,15 @@
 .footer p {
     text-align: center;
 }
+
+.footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer a::before {
+    content: "<";
+}
+.footer a::after {
+    content: "/>";
+}

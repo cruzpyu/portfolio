@@ -26,7 +26,7 @@
 
 <body>
   <header class="header">
-    <img class="logo" src="assets/img/profile-picture.jpg" alt="" />
+    <img class="logo" src="assets/img/name.png" alt="" />
     <nav class="header__nav">
       <input type="checkbox" name="" id="check" />
       <label for="check">&#8801;</label>
@@ -42,93 +42,101 @@
     </nav>
   </header>
   <main>
-    <section class="presentation">
+    <section class="presentation" id="hero">
       <div class="presentation__text">
-        <h1>Olá, me chamo Yullie!</h1>
-        <h3>Sou uma desenvolvedora Front-end.</h3>
-        <p>Tenho 24 anos e estou em transição de carreira.</p>
+        <h1>
+          Oi, meu nome é <br />
+          Yullie!
+        </h1>
+        <div class="image">
+          <img src="./assets/img/other__me.png" alt="" />
+        </div>
+        <h3>Sou uma desenvolvedora <mark class="purple">Front-end</mark>.</h3>
       </div>
     </section>
     <section id="about" class="about">
       <div class="about__text">
         <h2>Sobre mim</h2>
+        <p>Tenho 23 anos e moro em Sobral, no Ceará.</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-          expedita esse sint? Nisi, quo possimus. Corporis vero ea sapiente
-          reiciendis dolore, quam sed hic ad dignissimos. Earum eaque veniam
-          quod.
+          Em 2021 me graduei em Psicologia pela Universidade Federal do Ceará,
+          mas acabei não exercendo a profissão.
         </p>
+        <p>
+          Apesar disso, descobri coisas valiosíssimas nessa jornada. Talvez a
+          mais importante delas foi aprender que devo sempre
+          <mark>respeitar os meus desejos</mark>.
+        </p>
+        <img src="./assets/img/coding.png" alt="" />
+        <p>
+          Sempre fui apaixonada por tecnologia, e foi então que dedici dar vez
+          a um antigo sonho de <mark class="blue">aprender a programar</mark>!
+        </p>
+        <p>
+          Iniciei os estudos de desenvolvimento Front-end em janeiro de 2022.
+          Hoje sinto que me encontrei na área e não me vejo mais fazendo outra
+          coisa!
+        </p>
+        <p>Aqui eu mostro um pouco do que tenho aprontado desde então. (:</p>
       </div>
-
-      <button>Acessar currículo em PDF</button>
+      <button>Acessar meu currículo em PDF</button>
     </section>
     <section id="skills" class="skills">
       <h2>Skills</h2>
       <p>Ferramentas que hoje me sinto confortável em utilizar</p>
       <ul class="skills__list">
         <li class="skills__item">
-          <img class="skills__icon" src="./assets/img/logo-HTML.png" alt="HTML 5" />
+          <i class="fa-brands fa-html5"></i>
           <p class="skills__name">HTML5</p>
         </li>
         <li class="skills__item">
-          <img class="skills__icon" src="./assets/img/logo-CSS.png" alt="CSS 3" />
+          <i class="fa-brands fa-css3-alt"></i>
           <p class="skills__name">CSS3</p>
         </li>
         <li class="skills__item">
-          <img class="skills__icon" src="./assets/img/logo-SASS.png" alt="SASS" />
-          <p class="skills__name">SASS</p>
+          <i class="fa-brands fa-sass"></i>
+          <p class="skills__name">SCSS</p>
         </li>
         <li class="skills__item">
-          <img class="skills__icon" src="./assets/img/logo-Bootstrap.png" alt="Bootstrap" />
+          <i class="fa-brands fa-bootstrap"></i>
           <p class="skills__name">Bootstrap</p>
         </li>
         <li class="skills__item">
-          <img class="skills__icon" src="./assets/img/logo-Javascript.png" alt="Javascript" />
+          <i class="fa-brands fa-js"></i>
           <p class="skills__name">Javascript</p>
         </li>
+
         <li class="skills__item">
-          <img class="skills__icon" src="./assets/img/logo-git.png" alt="GIT" />
+          <i class="fa-brands fa-node"></i>
+          <p class="skills__name">Node.js</p>
+        </li>
+        <li class="skills__item">
+          <i class="fa-brands fa-git-alt"></i>
           <p class="skills__name">Git</p>
         </li>
       </ul>
     </section>
     <section id="hobbies" class="hobbies">
-      <h2>hobbies</h2>
+      <h2>Hobbies</h2>
       <ul class="hobbies__list">
+
         <li class="hobbies__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </li>
-        <li class="hobbies__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </li>
-        <li class="hobbies__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          <img class="hobbies__item__img" src="./assets/img/hobbies/teclado.png" alt="" />
+          <p class="hobbies__item__name">Música.</p>
+
         </li>
         <li class="hobbies__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          <p class="hobbies__item__name">Pixel art.</p>
+          <img class="hobbies__item__img" src="./assets/img/hobbies/no-face.png" alt="" />
         </li>
         <li class="hobbies__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          <img class="hobbies__item__img smaller" src="./assets/img/hobbies/movies.png" alt="" />
+          <p class="hobbies__item__name"> Filmes e séries.</p>
+
         </li>
-      </ul>
-    </section>
-    <section id="soft" class="soft">
-      <h2>soft skills</h2>
-      <ul class="soft__list">
-        <li class="soft__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </li>
-        <li class="soft__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </li>
-        <li class="soft__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </li>
-        <li class="soft__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </li>
-        <li class="soft__item">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <li class="hobbies__item">
+          <p class="hobbies__item__name">Descobrir coisas.</p>
+          <img class="hobbies__item__img rotate smaller" src="./assets/img/hobbies/lupa.png" alt="" />
         </li>
       </ul>
     </section>
@@ -137,45 +145,138 @@
     <h2>Formações</h2>
     <ul class="courses__list">
       <li class="courses__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <img src="./assets/img/institutions/alura-logo.png" alt="" class="institution-logo" />
+
+        <div class="courses__text">
+          <p class="institution">Alura</p>
+          <p class="course">Formação Oracle ONE: Front-end</p>
+        </div>
       </li>
+
       <li class="courses__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <img src="./assets/img/institutions/digitalhouse-logo.png" alt="" class="institution-logo" />
+        <div class="courses__text">
+          <p class="institution">Digital House</p>
+          <p class="course">Desenvolvimento Web Front-end</p>
+        </div>
       </li>
+
       <li class="courses__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <img src="./assets/img/institutions/freecodecamp-logo.png" alt="" class="institution-logo" />
+
+        <div class="courses__text">
+          <p class="institution">FreeCodeCamp</p>
+          <p class="course">Responsive Web Design</p>
+        </div>
       </li>
+
       <li class="courses__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-      </li>
-      <li class="courses__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <img src="./assets/img/institutions/ufc-logo.png" alt="" class="institution-logo" />
+        <div class="courses__text">
+          <p class="institution">Universidade Federal do Ceará</p>
+          <p class="course">Bacharelado em Psicologia</p>
+        </div>
       </li>
     </ul>
   </section>
   <section id="projects" class="experience">
-    <h2>projetos</h2>
+    <h2>Projetos</h2>
     <ul class="projects__list">
       <li class="projects__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <div class="projects__item__img-container">
+          <img src="./assets/img/projects/tindog.png" alt="" class="projects__img" />
+        </div>
+        <div class="projects__item__text">
+          <p class="projects__item__title">TinDog</p>
+          <p class="projects__item__description">Tinder para doguinhos</p>
+        </div>
+
+        <div class="projects__item__buttons">
+          <button class="page"><a href="">Página</a></button>
+          <button class="repository"><a href="">Repositório</a></button>
+        </div>
       </li>
       <li class="projects__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <div class="projects__item__img-container">
+          <img src="./assets/img/projects/hangdino.png" alt="" class="projects__img" />
+        </div>
+
+        <div class="projects__item__text">
+          <p class="projects__item__title">The Hangdino Game</p>
+          <p class="projects__item__description">Jogo da forca</p>
+        </div>
+
+        <div class="projects__item__buttons">
+          <button class="page"><a href="">Página</a></button>
+          <button class="repository"><a href="">Repositório</a></button>
+        </div>
       </li>
       <li class="projects__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <div class="projects__item__img-container">
+          <img src="./assets/img/projects/homepage-instagram.png" alt="" class="projects__img" />
+        </div>
+        <div class="projects__item__text">
+          <p class="projects__item__title">Clone da homepage do Instagram</p>
+          <p class="projects__item__description"></p>
+        </div>
+
+        <div class="projects__item__buttons">
+          <button class="page"><a href="">Página</a></button>
+          <button class="repository"><a href="">Repositório</a></button>
+        </div>
       </li>
       <li class="projects__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <div class="projects__item__img-container">
+          <img src="./assets/img/projects/technical-documentation-page.png" alt="" class="projects__img" />
+        </div>
+        <div class="projects__item__text">
+          <p class="projects__item__title">Página de documentação técnica</p>
+          <p class="projects__item__description"></p>
+        </div>
+
+        <div class="projects__item__buttons">
+          <button class="page"><a href="">Página</a></button>
+          <button class="repository"><a href="">Repositório</a></button>
+        </div>
       </li>
       <li class="projects__item">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <div class="projects__item__img-container">
+          <img src="./assets/img/projects/abuble.png" alt="" class="projects__img" />
+        </div>
+        <div class="projects__item__text">
+          <p class="projects__item__title">Abublé Codificador</p>
+          <p class="projects__item__description">
+            Codificador/Decodificador de textos
+          </p>
+        </div>
+
+        <div class="projects__item__buttons">
+          <button class="page"><a href="">Página</a></button>
+          <button class="repository"><a href="">Repositório</a></button>
+        </div>
       </li>
     </ul>
   </section>
   <section id="contact" class="contact">
     <h2>Obrigada por visitar meu portfólio!</h2>
-    <h3>Você entrar em contato comigo deixando uma mensagem abaixo</h3>
+    <h3>
+      Caso tenha interesse pelo meu trabalho, você pode entrar em contato
+      comigo através das minhas redes
+    </h3>
+    <ul>
+      <li>
+        <a href="https://github.com/cruzpyu">
+          <i class="fa-brands fa-github"></i></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/yullie/"><i class="fa-brands fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/yulliecruz/">
+          <i class="fa-brands fa-instagram"></i></a>
+      </li>
+    </ul>
+    <h3>ou pode me deixar uma mensagem por aqui. (:</h3>
     <form action="">
       <label for="nome">Nome</label>
       <input id="nome" type="text" />
@@ -188,21 +289,9 @@
       <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
       <button>Enviar</button>
     </form>
-    <h3>ou através das minhas redes! (:</h3>
-    <ul>
-      <li>
-        <a href="https://github.com/cruzpyu"> <i class="fa-brands fa-github"></i></a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/yullie/"><i class="fa-brands fa-linkedin"></i></a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/yulliecruz/"> <i class="fa-brands fa-instagram"></i></a>
-      </li>
-    </ul>
   </section>
   <footer class="footer">
-    <p>construído por Yullie Cruz</p>
+    <p>construído por <a href="#hero">Yullie</a></p>
   </footer>
   <script src="assets\js\script.js"></script>
 </body>

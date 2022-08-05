@@ -1,8 +1,29 @@
 .hobbies {
-  width: 80%;
-    margin: 8% auto;
+padding: 0 5%;
+  margin: 8% auto;
 }
 .hobbies__item {
-    list-style-type: none;
-    margin: 6% auto;
+  list-style-type: none;
+  margin: 6% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+  background-color: rgb(241, 238, 238);
+  box-shadow: 0.8px 0.8px 3px grey;
+}
+
+.hobbies__item__img {
+  width: 50%;
+  margin-top: 5%;
+}
+.hobbies__item__name {
+  font-size: 1em;
+}
+.smaller {
+  width: 35%;
+}
+
+.rotate {
+  transform: rotate(45deg);
 }
