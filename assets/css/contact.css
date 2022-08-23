@@ -71,3 +71,63 @@ form button {
 .contact ul li:first-child {
     margin-left: 0;
 }
+
+@media (min-width: 1200px) {
+    .contact {
+        display: flex;
+        padding-top: 10%;
+        align-items:flex-start;
+    }
+    .contact__div {
+        width: 50%;
+        text-align: left;
+    }
+    .contact h2 {
+   
+      font-size: 2em;
+    }
+    .contact ul li {
+        font-size: 2.5em;
+        list-style: none;
+        margin-left: 8%;
+    }
+    .contact h3 {
+        width: 90%;
+        line-height: 1.8em;
+        margin: 1% 0;
+        text-align: justify;
+    }
+    form input{
+    height: 30px;
+    margin-bottom: 1%;
+    padding:1%;
+    width: 90%;
+}
+form label {
+    margin: .3% 0;
+}
+form textarea {
+    resize: none;
+    margin-bottom: 1%;
+    padding:1%;
+    width: 90%;
+}
+form {
+    padding-left: 5%;
+}
+form button {
+    background-color: whitesmoke;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px grey;
+    font-size: 1em;
+    font-weight: 400;
+    height: 40px;
+    padding: 2%;
+    width: 20%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}

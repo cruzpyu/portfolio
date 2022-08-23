@@ -220,7 +220,14 @@
       </ul>
     </section>
     <section id="projects" class="experience">
-      <h2>Projetos</h2>
+      <div>
+        <h2>Projetos</h2>
+        <p class="projects__subtitle">
+          Aqui estão alguns projetos que construí ou colaborei. Veja mais no meu
+          GitHub!
+        </p>
+      </div>
+
       <ul class="projects__list">
         <li class="projects__item">
           <div class="projects__item__img-container">
@@ -315,41 +322,56 @@
       </ul>
     </section>
     <section id="contact" class="contact">
-      <h2>Obrigada por visitar meu portfólio!</h2>
-      <h3>
-        Caso tenha interesse pelo meu trabalho, você pode entrar em contato
-        comigo através das minhas redes
-      </h3>
-      <ul>
-        <li>
-          <a href="https://github.com/cruzpyu">
-            <i class="fa-brands fa-github"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/yullie/"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/yulliecruz/">
-            <i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
-      <h3>ou pode me deixar uma mensagem por aqui. (:</h3>
-      <form action="">
-        <label for="nome">Nome</label>
-        <input id="nome" type="text" />
-        <label for="email">Email</label>
-        <input id="email" type="email" />
+      <div class="contact__div">
+        <h2>Obrigada por visitar meu portfólio!</h2>
+        <h3>
+          Caso tenha interesse pelo meu trabalho, você pode entrar em contato
+          comigo através das minhas redes ou deixando uma mensagem por
+          aqui. (:
+        </h3>
+        <ul class="contact__social__list">
+          <li class="contact__social__item">
+            <a href="https://github.com/cruzpyu">
+              <i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li class="contact__social__item">
+            <a href="https://www.linkedin.com/in/yullie/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="contact__social__item">
+            <a href="https://www.instagram.com/yulliecruz/">
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="contact__social__item">
+            <a href="https://api.whatsapp.com/send?phone=5588999172168">
+              <i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
 
-        <label for="assunto">Assunto</label>
-        <input id="assunto" type="text" />
-        <label for="mensagem">Mensagem</label>
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-        <button>Enviar</button>
-      </form>
+      <div class="contact__div">
+        <form action="">
+          <label for="nome">Nome</label>
+          <input id="nome" type="text" />
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+
+          <label for="assunto">Assunto</label>
+          <input id="assunto" type="text" />
+          <label for="mensagem">Mensagem</label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button>Enviar</button>
+        </form>
+      </div>
     </section>
     <footer class="footer">
       <p>construído por <a href="#hero">Yullie</a></p>
