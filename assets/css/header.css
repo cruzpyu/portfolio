@@ -1,58 +1,92 @@
 .header {
-    border: 1px solid silver;
-    box-shadow: 0 0.3px 1.5px grey;
-    display: flex;
-    padding: 7px 20px;
-    align-items: center;
-    height: 80px;
-    background-color: whitesmoke;
-  }
-  
-  .logo {
-    width: 18%;
+  border-bottom: 1px solid silver;
+  box-shadow: 0 0.3px 1.5px grey;
+  display: flex;
+  padding: 7px 20px;
+  align-items: center;
+  height: 80px;
+  background-color: whitesmoke;
+}
 
+.logo {
+  width: 18%;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.header__menu {
+  list-style: none;
+  height: 100vh;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 81px;
+  right: -100%;
+  padding: 15px;
+  text-align: center;
+  width: 60%;
+  transition: all 0.6s ease-out;
+}
+
+.header__menu li {
+  border-bottom: 1px solid silver;
+  width: 100%;
+  padding: 15px;
+}
+.header__menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Hamburguer Menu */
+#check {
+  display: none;
+}
+
+#check:checked ~ .header__menu {
+  right: 0;
+}
+
+label {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(52, 51, 51);
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 4%;
   }
-  
-  .header__nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+  .header {
+    align-items: center;
+    justify-content: center;
   }
-  
   .header__menu {
+    align-self: center;
+    background-color: transparent;
+    display: flex;
+    height: 10%;
     list-style: none;
-    height: 100vh;
-    background-color: whitesmoke;
-    position: fixed;
-    top: 81px;
-    right: -100%;
-    padding: 15px;
+    padding: 0;
+    position: relative;
+    right: 0;
     text-align: center;
-    width: 60%;
-    transition: all 0.6s ease-out;
+    top: 0;
+    transition: none;
+    width: 70%;
   }
-  
+
   .header__menu li {
-    border-bottom: 1px solid silver;
+    border: none;
     width: 100%;
-    padding: 15px;
+    padding: 0;
+    font-size: 1.2em;
   }
-  .header__menu li a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  /* Hamburguer Menu */
-  #check {
+
+  .checkbox__label {
     display: none;
   }
-  
-  #check:checked ~ .header__menu {
-    right: 0;
-  }
-  
-  label {
-    font-size: 2em;
-    font-weight: bold;
-    color: rgb(52, 51, 51);
-  }
+}
