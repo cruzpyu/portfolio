@@ -28,3 +28,26 @@
 .institution {
   width: 90%;
 }
+
+@media (min-width: 1200px) {
+  .courses h2 {
+    font-size: 2em;
+    margin-bottom: 3%;
+  }
+  .courses__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .courses__item {
+    padding: 3%;
+    background-color: rgb(241, 238, 238);
+    margin: 2%;
+    width: 45%;
+  }
+  .institution-logo {
+    width: 5em;
+  }
+  .course{
+    width: 100%;
+  }
+}
