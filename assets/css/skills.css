@@ -27,7 +27,7 @@
 }
 .skills__item:hover {
   transform: scale(1.02);
-  border-color: goldenrodg;
+  border-color: goldenrod;
 }
 .skills p {
   margin: 3% 0;
