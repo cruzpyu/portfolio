@@ -21,14 +21,13 @@
   text-align: center;
   width: 45%;
 }
-
 .skills__name {
   font-weight: 400;
- font-size: 0.9em;
+  font-size: 0.9em;
 }
 .skills__item:hover {
-  transform: scale(1.01);
-  border-color: pink;
+  transform: scale(1.02);
+  border-color: goldenrodg;
 }
 .skills p {
   margin: 3% 0;
@@ -37,4 +36,27 @@
 .skills__item i {
   font-size: 3.5em;
   margin-bottom: 10%;
+}
+
+@media (min-width: 1200px) {
+  .skills {
+    margin-top: 5%;
+  }
+  .skills h2 {
+    font-size: 2em;
+  }
+  .skills__subtitle {
+    font-size: 1em;
+  }
+  .skills__item {
+    padding: 3%;
+    margin: 2%;
+    border: 1px solid silver;
+    background-color:transparent;
+    box-shadow: 0.2px 0.3px 0.5px grey;
+    width: 20%;
+  }
+  .skills__item i {
+    margin-bottom: 15%;
+  }
 }
