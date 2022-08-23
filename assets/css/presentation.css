@@ -35,3 +35,25 @@
   .purple {
     background-color: #B1BCE6;
   }
+
+  @media (min-width: 1200px) {
+    .presentation {
+      text-align: center;
+      padding: 2%;
+      margin-top: 2%;
+    }
+
+  .presentation__text h1 {
+    font-weight: bold;
+    font-size: 2em;
+    width: 100%;
+  }
+  .presentation__text h3 {
+    font-size: 1.5em;
+  }
+    .image img {
+      width: 20%;
+      margin: 4% auto;
+    }
+
+  }
