@@ -87,27 +87,28 @@ label {
     justify-content: center;
   }
   .header__menu {
-    align-self: center;
     background-color: transparent;
     display: flex;
+    justify-content: space-around;
     height: 10%;
     list-style: none;
     padding: 0;
     position: relative;
     right: 0;
-    text-align: center;
     top: 0;
-    transition: none;
-    width: 70%;
   }
 
   .header__menu li {
     border: none;
-    width: 100%;
     padding: 0;
-    font-size: 1.2em;
+    font-size: 0.9em;
+    margin: 0;
   }
 
+  .header__menu li a {
+    margin: -100px;
+  }
+ 
   .checkbox__label {
     display: none;
   }
