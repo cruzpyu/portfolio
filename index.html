@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./assets/css/projects.css" />
     <link rel="stylesheet" href="./assets/css/contact.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/toggle-theme.css">
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -31,11 +32,19 @@
   <body>
     <header class="header">
       <img class="logo" src="assets/img/name.png" alt="" />
+      <div class="toggle-theme">
+        <input type="checkbox" id="chk" class="toggle-checkbox">
+      <label class="toggle-label" for="chk">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-solid fa-sun"></i>
+  <div class="toggle-ball"></div>
+      </label>
+    </div>
       <nav class="header__nav">
         <input type="checkbox" name="" id="check" />
         <label class="checkbox__label" for="check">&#8801;</label>
         <ul class="header__menu">
-          <li class="header__menu__item"><a href="#about">Sobre</a></li>
+          <li class="header__menu__item"><a  href="#about">Sobre</a></li>
           <li class="header__menu__item"><a href="#hobbies">Hobbies</a></li>
           <li class="header__menu__item"><a href="#courses">Formações</a></li>
           <li class="header__menu__item"><a href="#skills">Ferramentas</a></li>
@@ -43,15 +52,16 @@
           <li class="header__menu__item"><a href="#contact">Contato</a></li>
         </ul>
       </nav>
+
     </header>
     <main>
       <section class="presentation" id="hero">
         <div class="presentation__text">
-          <h1>Olá, meu nome é Yullie!</h1>
+          <h1 class="txt">Olá, meu nome é Yullie!</h1>
           <div class="image">
             <img src="./assets/img/other__me.png" alt="" />
           </div>
-          <h3>Sou uma desenvolvedora <mark class="purple">Front-end</mark>.</h3>
+          <h3 class="txt">Sou uma desenvolvedora <mark class="purple">Front-end</mark>.</h3>
         </div>
       </section>
       <section id="about" class="about">
@@ -216,8 +226,8 @@
       <div>
         <h2>Projetos</h2>
         <p class="projects__subtitle">
-          Aqui estão alguns projetos que construí ou colaborei. Veja mais no meu
-          GitHub, ou acesse meu currículo em PDF.
+          Aqui estão alguns projetos que construí ou colaborei. </p>
+          <p></i>Você pode encontrar mais no meu <a class="projects__subtitle__link" href="https://github.com/cruzpyu"> GitHub <i class="fa-brands fa-github-alt"></i></a>, ou acessar meu <a class="projects__subtitle__link" href="https://drive.google.com/file/d/1jcKdBjFrazpuNEus6wujM3TF5rcj6Qrx/view?usp=sharing">currículo em PDF <i class="fa-regular fa-file"></i></a>.
         </p>
       </div>
 
@@ -370,5 +380,6 @@
       <p>construído por <a href="#hero">Yullie</a></p>
     </footer>
     <script src="assets\js\script.js"></script>
+    <script src="assets\js\dist\script.dev.js"></script>
   </body>
 </html>

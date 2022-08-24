@@ -11,6 +11,24 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
+  background-color: #dadef1;
+  color: #24283B;
+  transition: background 0.2s linear;
 }
+
+body.dark {
+  background-color: #24283B ;
+}
+/* :root {
+  /* palletes */
+  /* dark  */
+  /* (destaque) blue: #688AD2, #7093E0;
+  (text) soft-white: #A4ADD4, #A9B2DA, #A9B1D6;
+  (bg) dark-purple: #1A1B27, #24283B;
+  (destaque) soft-purple: #B092EA, #9375CA;
+  green: #71D6C7;
+  red: #D2494A;
+  yellow: #C79D62, #D4A665; */
+
+
 

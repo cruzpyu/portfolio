@@ -13,4 +13,9 @@ for (var link = 0; link < navLinks.length; link++) {
 
 document.addEventListener('scroll', function () {
   hamburguerMenu.checked = false;
+}); // dark theme 
+
+var chk = document.querySelector('#chk');
+chk.addEventListener('change', function () {
+  document.body.classList.toggle('dark');
 });
