@@ -1,121 +1,171 @@
 .contact {
-    width: 80%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 .contact h2 {
-    margin-bottom: 4%;
-    width: 95%;
+  font-size: 1.3em;
+  margin-bottom: 4%;
+  width: 100%;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 10%;
 }
 form label {
-    font-size: 1em;
-    font-weight: 400;
-    margin: 1.5% 0;
+  font-size: 0.8em;
+  font-weight: 400;
+  margin: 1% 0;
 }
 
 form input,
 form textarea {
-    background-color: rgb(244, 244, 244);
-    border: 1px solid silver;
-    border-radius: 5px;
-    height: 30px;
-    margin-bottom: 3%;
-    padding: 5% 3%;
+  background-color: rgb(244, 244, 244);
+  border: 1px solid silver;
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 3%;
+  padding: 5% 3%;
 }
 
 form textarea {
-    height: auto;
-    
+  height: auto;
 }
 form button {
-    background-color: whitesmoke;
-    border: 1px solid silver;
-    border-radius: 5px;
-    box-shadow: 0 1px 1px grey;
-    font-size: 1em;
-    font-weight: 400;
-    height: 35px;
-    padding: 2%;
-    width: 40%;
-    margin: 5% auto;
+  background-color: whitesmoke;
+  border: 1px solid silver;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px grey;
+  font-size: 0.9em;
+  font-weight: 600;
+  height: 35px;
+  padding: 2%;
+  width: 40%;
+  margin: 5% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact h3 {
-    margin: 8% 0;
-    font-weight: 400;
-    font-size: 1em;
-    font-weight: 400;
-    width: 95%;
+  text-align: justify;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin: 8% 0;
+  font-size: 0.9em;
+  width: 100%;
 }
 .contact ul {
-    display: flex;
-    justify-content: center;
-    margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
 }
 .contact ul li {
-    font-size: 2em;
-    list-style: none;
-    margin-left: 25%;
- 
+  font-size: 2em;
+  list-style: none;
+  margin: 4% 0 0 10%;
 }
-.contact ul li a{
- color: black;
- 
+.contact ul li a {
+  color: black;
 }
 .contact ul li:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
-@media (min-width: 1200px) {
-    .contact {
-        display: flex;
-        padding-top: 10%;
-        align-items:flex-start;
-    }
-    .contact__div {
-        width: 50%;
-        text-align: left;
-    }
-    .contact h2 {
-   
-      font-size: 2em;
-    }
-    .contact ul li {
-        font-size: 2.5em;
-        list-style: none;
-        margin-left: 8%;
-    }
-    .contact h3 {
-        width: 90%;
-        line-height: 1.8em;
-        margin: 1% 0;
-        text-align: justify;
-    }
-    form input{
+@media (min-width: 768px) {
+  .contact {
+    display: flex;
+    align-items: flex-start;
+    width: 95%;
+  }
+  .contact__div {
+    width: 50%;
+  }
+  .contact h2 {
+    width: 95%;
+    font-size: 1.3em;
+  }
+  .contact ul {
+    width: 95%;
+  }
+  .contact ul li {
+    font-size: 2em;
+  }
+  .contact h3 {
+    width: 95%;
+    font-size: 0.9em;
+  }
+  form input {
     height: 30px;
     margin-bottom: 1%;
-    padding:1%;
-    width: 90%;
-}
-form label {
-    margin: .3% 0;
-}
-form textarea {
+    padding: 1%;
+    width: 100%;
+  }
+  form textarea {
     resize: none;
     margin-bottom: 1%;
-    padding:1%;
+    padding: 1%;
+    width: 100%;
+  }
+  form {
+    padding-left: 2%;
+    margin-top: 0;
+  }
+  form button {
+    font-weight: 400;
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .contact {
+    display: flex;
+    padding-top: 10%;
+    align-items: flex-start;
+  }
+  .contact__div {
+    width: 50%;
+    text-align: left;
+  }
+  .contact h2 {
+    font-size: 2em;
+    margin-bottom: 5%;
+  }
+  .contact ul {
+    width: 95%;
+  }
+  .contact ul li {
+    font-size: 2.3em;
+    list-style: none;
+    margin-left: 8%;
+  }
+  .contact h3 {
     width: 90%;
-}
-form {
+    line-height: 1.8em;
+    margin: 1% 0;
+    text-align: justify;
+  }
+  form input {
+    height: 30px;
+    margin-bottom: 1%;
+    padding: 1%;
+    width: 90%;
+  }
+  form label {
+    margin: 0.3% 0;
+  }
+  form textarea {
+    resize: none;
+    margin-bottom: 1%;
+    padding: 1%;
+    width: 90%;
+  }
+  form {
     padding-left: 5%;
-}
-form button {
+  }
+  form button {
     background-color: whitesmoke;
     border: 1px solid silver;
     border-radius: 5px;
@@ -129,5 +179,64 @@ form button {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
 }
+
+@media (min-width: 1200px) {
+  .contact {
+    display: flex;
+    padding-top: 10%;
+    align-items: flex-start;
+  }
+  .contact__div {
+    width: 50%;
+    text-align: left;
+  }
+  .contact h2 {
+    font-size: 2em;
+  }
+  .contact ul li {
+    font-size: 2.5em;
+    list-style: none;
+    margin-left: 8%;
+  }
+  .contact h3 {
+    width: 90%;
+    line-height: 1.8em;
+    margin: 1% 0;
+    text-align: justify;
+  }
+  form input {
+    height: 30px;
+    margin-bottom: 1%;
+    padding: 1%;
+    width: 90%;
+  }
+  form label {
+    margin: 0.3% 0;
+  }
+  form textarea {
+    resize: none;
+    margin-bottom: 1%;
+    padding: 1%;
+    width: 90%;
+  }
+  form {
+    padding-left: 5%;
+  }
+  form button {
+    background-color: whitesmoke;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px grey;
+    font-size: 1em;
+    font-weight: 400;
+    height: 40px;
+    padding: 2%;
+    width: 20%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

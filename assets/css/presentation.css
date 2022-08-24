@@ -1,48 +1,80 @@
 .presentation {
-    text-align: center;
-    padding: 15% 5%;
-    margin-top: 3%;
-  }
-  
-  .presentation__text h1 {
-    margin-bottom: 0.1em;
-    line-height: 1.3em;
-    font-weight: bold;
-  }
+  text-align: center;
+  padding: 15% 5%;
+  margin-top: 3%;
+}
+
+.presentation__text h1 {
+  font-size: 1.4em;
+  margin-bottom: 0.1em;
+  line-height: 1.3em;
+  font-weight: bold;
+}
+.presentation__text h3 {
+  font-size: 1.2em;
+  font-weight: 600;
+  width: 86%;
+  margin: auto;
+}
+.presentation__text p {
+  width: 80%;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.image img {
+  width: 60%;
+  margin: 5% auto;
+}
+
+.front {
+  text-decoration: none;
+  background-color: #f2d1d1;
+  color: black;
+  background-blend-mode: multiply;
+}
+
+.purple {
+  background-color: #b1bce6;
+}
+@media (min-width: 375px) {
   .presentation__text h3 {
-    font-weight: 600;
-    width: 86%;
+    width: 80%;
+  }
+}
+@media (min-width: 425px) {
+  .presentation {
+    padding: 10% 5%;
+  }
+  .presentation__text h1 {
+    width: 90%;
     margin: auto;
   }
-  .presentation__text p {
-    width: 80%;
-    margin-top: 10px;
-    font-weight: 400;
+  .presentation__text h3 {
+    width: 85%;
   }
-  
+}
+@media (min-width: 768px) {
+  .presentation {
+    padding: 2%;
+    margin-top: 5%;
+  }
   .image img {
-    width: 60%;
-    margin: 5% auto;
+    width: 40%;
+    margin: 3% auto;
   }
-
-  .front {
-    text-decoration: none;
-    background-color: #F2D1D1;
-    color: black;
-    background-blend-mode: multiply;
+}
+@media (min-width: 1024px) {
+  .image img {
+    width: 25%;
+    margin: 3% auto;
   }
-
-  .purple {
-    background-color: #B1BCE6;
+}
+@media (min-width: 1200px) {
+  .presentation {
+    padding: 2%;
+    margin-top: 2%;
   }
-
-  @media (min-width: 1200px) {
-    .presentation {
-      text-align: center;
-      padding: 2%;
-      margin-top: 2%;
-    }
-
   .presentation__text h1 {
     font-weight: bold;
     font-size: 2em;
@@ -51,9 +83,8 @@
   .presentation__text h3 {
     font-size: 1.5em;
   }
-    .image img {
-      width: 20%;
-      margin: 4% auto;
-    }
-
+  .image img {
+    width: 20%;
+    margin: 4% auto;
   }
+}

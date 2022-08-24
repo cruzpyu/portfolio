@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  padding: 3% 10% 10%;
+  padding: 3% 5% 10%;
 }
 .skills__list {
   display: flex;
@@ -30,6 +30,8 @@
   border-color: goldenrod;
 }
 .skills p {
+  line-height: 1.5em;
+  font-size: .9em;
   margin: 3% 0;
 }
 
@@ -37,7 +39,35 @@
   font-size: 3.5em;
   margin-bottom: 10%;
 }
-
+@media (min-width: 375px) {
+  .skills h2 {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 425px) {
+  .skills p {
+    font-size: 1em;
+  }
+  .skills h2 {
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 768px) {
+  .skills {
+    margin-top: 5%;
+  }
+  .skills__item {
+    padding: 3%;
+    margin: 2%;
+    width: 20%;
+  }
+}
+@media (min-width: 1024px) {
+.skills {
+  margin: 0;
+  padding-bottom: 0;
+}
+}
 @media (min-width: 1200px) {
   .skills {
     margin-top: 5%;

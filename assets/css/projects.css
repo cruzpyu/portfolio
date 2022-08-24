@@ -1,6 +1,6 @@
 .experience {
   margin-top: 8%;
-  padding: 10% 8%;
+  padding: 10% 5%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -23,6 +23,8 @@
 }
 .projects__item__text {
   padding: 1% 5%;
+  font-size: .8em;
+
 }
 .projects__item__title {
   font-weight: bold;
@@ -43,7 +45,88 @@
   justify-content: space-around;
 }
 .projects__subtitle {
+  text-align: justify;
+  line-height: 1.5em;
   width: 100%;
+  margin: 7% 0 0;
+  font-size: 0.9em;
+}
+
+@media (min-width: 425px) {
+  .experience h2 {
+    font-size: 1.3em;
+  }
+  .projects__subtitle {
+    width: 92%;
+    font-size: 1em;
+  }
+  .projects__item__text {
+  font-size: 1em;
+  }
+
+  .projects__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .projects__item {
+    width: 95%;
+    margin: 8% auto;
+  }
+  .projects__item:first-child {
+    margin: 8% auto;
+  }
+}
+@media (min-width: 768px) {
+  .experience h2 {
+    font-size: 1.3em;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .projects__subtitle {
+   margin-top: 2%;
+  }
+  .projects__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .projects__item {
+    width: 42%;
+    margin: 3% 4%;
+  }
+}
+@media (min-width: 1024px) {
+  .experience {
+    padding: 0 5%;
+  }
+  .projects__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-evenly;
+  }
+  .projects__item:first-child {
+    margin: 2% auto;
+  }
+  .projects__item {
+    width: 30%;
+    margin:2%;
+  }
+  .projects__item__img-container img {
+    height: 200px;
+  }
+  .projects__item__text {
+    min-height: 90px;
+    font-size:0.9em;
+  }
+  .projects__subtitle {
+   line-height: 1.5em;
+   }
+   .projects__item__buttons button a {
+  font-size: .9em;
+  }
 }
 
 @media (min-width: 1200px) {

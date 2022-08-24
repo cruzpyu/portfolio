@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 9%;
+  padding: 5%;
 }
-
 .about img {
   width: 100%;
   border: 1px solid black;
@@ -34,16 +33,63 @@ mark {
   cursor: pointer;
 }
 .about h2 {
-  margin-bottom: 6%;
+  margin: 6% 0;
+  font-size: 1.2em;
 }
 .about__text p {
-  font-size: 1.1em;
+  font-size: 0.9em;
   font-weight: 400;
-  line-height: 1.25em;
+  line-height: 1.5em;
   margin-bottom: 5%;
   text-align: justify;
 }
-
+@media (min-width: 425px) {
+  .about h2 {
+    margin: 6% 0;
+    font-size: 1.3em;
+  }
+  .about__text p {
+    font-size: 1em;
+  }
+}
+@media (min-width: 768px) {
+  .about {
+    padding: 4%;
+  }
+  .about__text p {
+    font-size: 1em;
+    line-height: 1.8em;
+    margin-bottom: 1%;
+    text-align: justify;
+  }
+  .about img {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .about {
+    padding: 0 5%;
+  }
+  .about h2 {
+    margin-bottom: 3%;
+    font-size: 1.4em;
+  }
+  .about img {
+    display: block;
+    width: 40%;
+    margin: 0;
+    position: relative;
+    float: right;
+    bottom: 200px;
+    right: 25px;
+  }
+  .about__text p {
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 1%;
+    width: 50%;
+  }
+}
 @media (min-width: 1200px) {
   .about {
     background-color: rgb(238, 238, 238);
@@ -54,7 +100,8 @@ mark {
     font-size: 2em;
   }
   .about img {
-    width: 40%;
+    display: block;
+    width: 35%;
     margin: 0;
     position: relative;
     float: right;
@@ -65,7 +112,7 @@ mark {
     margin-bottom: 7%;
   }
   .about__text p {
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.3em;
     margin-bottom: 1.5%;
     width: 50%;
