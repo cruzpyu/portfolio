@@ -24,7 +24,6 @@
   position: fixed;
   top: 81px;
   right: -100%;
-  padding: 15px;
   text-align: center;
   width: 60%;
   transition: all 0.6s ease-out;
@@ -32,7 +31,10 @@
 .header__menu li {
   border-bottom: 1px solid silver;
   width: 100%;
-  padding: 15px;
+  padding: 20px 0;
+  color: var(--dark-purple);
+  font-size: 1em;
+  box-shadow: 1px 3px 5px silver;
 }
 .header__menu li a {
   text-decoration: none;
@@ -46,9 +48,9 @@
   right: 0;
 }
 label {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bold;
-  color: rgb(52, 51, 51);
+  color: var(--dark-purple);
 }
 @media (min-width: 375px) {
   .header {

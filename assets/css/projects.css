@@ -24,11 +24,13 @@
   padding: 1% 5%;
   font-size: 0.8em;
   font-size: 0.9em;
+  color: var(--dark-purple);
 }
 .projects__item__title {
   font-weight: bold;
   margin: 3% 0 2%;
   font-size: 1em;
+  color: var(--dark-purple);
 }
 .projects__item__buttons button {
   width: 42%;

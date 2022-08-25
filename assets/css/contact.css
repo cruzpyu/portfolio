@@ -7,6 +7,7 @@
   font-size: 1.3em;
   margin-bottom: 4%;
   width: 100%;
+  color: var(--dark-purple);
 }
 
 form {
@@ -16,7 +17,7 @@ form {
   margin-top: 10%;
 }
 form label {
-  font-size: 0.8em;
+  font-size: .9em;
   font-weight: 400;
   margin: 1% 0;
 }
@@ -36,14 +37,14 @@ form textarea {
 }
 form button {
   background-color: whitesmoke;
-  border: 1px solid silver;
+  border: 1px solid var(--dark-purple);
   border-radius: 5px;
-  box-shadow: 0 1px 1px grey;
-  font-size: 0.8em;
+  box-shadow: 0 .5px 2px grey;
+  font-size: 1em;
   font-weight: 400;
-  height: 35px;
+  height: 38px;
   padding: 2%;
-  width: 40%;
+  width: 42%;
   margin: 5% auto;
   display: flex;
   align-items: center;
@@ -55,8 +56,9 @@ form button {
   line-height: 1.5em;
   font-weight: 400;
   margin: 8% 0;
-  font-size: 0.9em;
+  font-size: 1em;
   width: 100%;
+  color: var(--dark-purple);
 }
 .contact ul {
   display: flex;
@@ -69,7 +71,7 @@ form button {
   margin: 4% 0 0 10%;
 }
 .contact ul li a {
-  color: black;
+  color: var(--dark-purple);
 }
 .contact ul li:first-child {
   margin-left: 0;
