@@ -1,5 +1,5 @@
 .skills {
-  margin-top: 12%;
+  margin-top: 7%;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -16,7 +16,7 @@
   padding: 4% 2%;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 0.2px .9px .9px silver;
+  box-shadow: 0.2px 0.9px 0.9px silver;
   margin: 2%;
   justify-content: center;
   text-align: center;
@@ -27,17 +27,18 @@
 }
 p.skills__name {
   font-weight: 600;
-  font-size: .8em;
+  font-size: 0.8em;
   margin: 6% 0;
 }
 .skills-img {
   height: 60px;
 }
 .skills h2 {
-  margin:  0;
+  margin: 0;
 }
 p.skills__subtitle {
   font-size: 1em;
+  line-height: 1.5em;
   margin: 4% 0;
 }
 @media (min-width: 375px) {

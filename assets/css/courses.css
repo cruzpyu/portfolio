@@ -5,16 +5,16 @@
   list-style-type: none;
   display: flex;
   align-items: center;
-  padding: 7% 2%;
+  padding: 7% 6%;
   margin-top: 7%;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 0.2px .9px .9px silver;
+  box-shadow: 0.2px 0.9px 0.9px silver;
 }
 .institution {
   font-weight: bold;
   margin-bottom: 1%;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .course,
 .courses h2 {
@@ -22,9 +22,9 @@
 }
 
 .institution-logo {
-  width: 4em;
+  width: 3.5em;
   border-radius: 5px;
-  margin-right: 5%;
+  margin-right: 8%;
 }
 .course,
 .institution {
@@ -32,7 +32,7 @@
   line-height: 1.5em;
 }
 .course {
-  font-size: 0.8em;
+  font-size: .9em;
 }
 
 @media (min-width: 425px) {

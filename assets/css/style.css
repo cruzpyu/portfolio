@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   background-color: whitesmoke;
   color: var(--dark-purple);
-  transition: background 0.2s linear;
+  transition: background 0.3s;
 }
 body::-webkit-scrollbar {
   width: 10px;           

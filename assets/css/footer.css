@@ -1,33 +1,30 @@
 .footer {
-    background-color: #1b1e2d;
-    color: #efefef;
-    font-size: 0.8em;
-    margin-top: 10%;
-    padding: 2%;
+  background-color: #1b1e2d;
+  color: #efefef;
+  font-size: 0.8em;
+  margin-top: 8%;
+  padding: 4%;
 }
-
 .footer p {
-    text-align: center;
+  text-align: center;
 }
-
 .footer a {
-    text-decoration: none;
-    color: whitesmoke;
+  text-decoration: none;
+  color: whitesmoke;
 }
-
 .footer a::before {
-    content: "<";
+  content: "<";
 }
 .footer a::after {
-    content: "/>";
+  content: "/>";
 }
 
 @media (min-width: 1200px) {
-    .footer {
-        margin-top: 0;
-        padding: 1%;
-    }
-    .footer a:hover {
-        color: goldenrod;
-    }
+  .footer {
+    margin-top: 0;
+    padding: 1%;
+  }
+  .footer a:hover {
+    color: goldenrod;
+  }
 }

@@ -13,14 +13,13 @@
   background-color: #fff;
   box-shadow: 0.8px 0.8px 3px silver;
 }
-
 .hobbies__item__img {
   width: 50%;
   margin-top: 5%;
 }
 .hobbies__item__name {
-  font-size: 0.8em;
-  margin: 10%;
+  font-size: 1em;
+  margin: 6%;
 }
 .smaller {
   width: 35%;

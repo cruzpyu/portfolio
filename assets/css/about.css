@@ -5,11 +5,10 @@
   padding: 5%;
   background-color: whitesmoke;
 }
-
 .about h2 {
-  margin: 5% 0;
+  margin: 5% 0 6%;
   font-size: 1.2em;
-    color: var(--dark-purple);
+  color: var(--dark-purple);
 }
 .about img {
   width: 100%;
@@ -17,11 +16,10 @@
   margin: 5% 0 10%;
   background-color: white;
   border: 1px solid rgb(166, 166, 166);
-  box-shadow: .2px .2px .2px var(--dark-purple);;
+  box-shadow: 0.2px 0.2px 0.2px var(--dark-purple);
 }
-
 .about__text p {
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 500;
   line-height: 1.5em;
   margin-bottom: 5%;
@@ -80,7 +78,7 @@ mark {
 }
 @media (min-width: 1200px) {
   .about {
-    padding:   3% auto;
+    padding: 3% auto;
   }
   .about h2 {
     margin-bottom: 3%;
