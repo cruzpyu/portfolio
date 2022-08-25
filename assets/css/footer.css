@@ -23,15 +23,11 @@
 }
 
 @media (min-width: 1200px) {
-    .footer{
+    .footer {
         margin-top: 0;
         padding: 1%;
     }
-    
-.footer a:hover {
-  
-    color: goldenrod;
-}
-
- 
+    .footer a:hover {
+        color: goldenrod;
+    }
 }

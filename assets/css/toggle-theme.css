@@ -1,6 +1,6 @@
 .toggle-theme {
     position: relative;
-    left: 3%;
+    left: -18%;
 }
 .toggle-checkbox {
     opacity: 0;
@@ -15,8 +15,8 @@
     justify-content: space-between;
     padding: 5px;
     position: relative;
-    height: 20px;
-    width: 40px;
+    height: 18px;
+    width: 35px;
     transform: scale(1.5);
 }
 .fa-moon, .fa-sun {
@@ -29,11 +29,11 @@
     position: absolute;
     top: 2px;
     left: 2px;
-    height: 16px;
-    width: 16px;
+    height: 14px;
+    width: 14px;
     transform: translateX(0px);
     transition: transform 0.2s linear;
 }
 .toggle-checkbox:checked + .toggle-label .toggle-ball{
-    transform: translateX(20px);
+    transform: translateX(15px);
 }

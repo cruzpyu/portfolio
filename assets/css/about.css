@@ -3,48 +3,33 @@
   flex-direction: column;
   align-items: center;
   padding: 5%;
+  background-color: whitesmoke;
+}
+
+.about h2 {
+  margin: 5% 0;
+  font-size: 1.2em;
+    color: var(--dark-purple);
 }
 .about img {
   width: 100%;
-  border: 1px solid black;
   padding: 8px 10px;
   margin: 5% 0 10%;
   background-color: white;
   border: 1px solid rgb(166, 166, 166);
-  box-shadow: 1px 1px 2px silver;
+  box-shadow: .2px .2px .2px var(--dark-purple);;
 }
 
-mark {
-  background-color: #c6dce4;
-}
-
-.about button {
-  background-color: whitesmoke;
-  border-radius: 5px;
-  border: 1px solid rgb(166, 166, 166);
-  box-shadow: 1px 1px 2px silver;
-  font-size: 1em;
-  font-weight: 400;
-  height: 55px;
-  line-height: 1.2em;
-  margin-top: 7%;
-  padding: 2% 5%;
-  width: 95%;
-  cursor: pointer;
-}
-.about h2 {
-  margin: 6% 0;
-  font-size: 1.2em;
-}
-body.dark .about__text {
-  color: #dadef1;
-   }
 .about__text p {
   font-size: 0.9em;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5em;
   margin-bottom: 5%;
   text-align: justify;
+  color: var(--dark-purple);
+}
+mark {
+  background-color: #b1bce6;
 }
 @media (min-width: 425px) {
   .about h2 {
@@ -95,7 +80,7 @@ body.dark .about__text {
 }
 @media (min-width: 1200px) {
   .about {
-    padding-bottom: 0;
+    padding:   3% auto;
   }
   .about h2 {
     margin-bottom: 3%;
@@ -120,17 +105,5 @@ body.dark .about__text {
     margin-bottom: 1.5%;
     width: 50%;
     text-align: justify;
-  }
-  .about button {
-    margin-top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 40%;
-  }
-  .about button a {
-    text-decoration: none;
-    color: black;
   }
 }

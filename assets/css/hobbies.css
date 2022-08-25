@@ -9,18 +9,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 5% 10%;
-  background-color: rgb(241, 238, 238);
-  box-shadow: 0.8px 0.8px 3px grey;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0.8px 0.8px 3px silver;
 }
-body.dark .hobbies__item {
-  background-color: #dadef1;
-}
-body.dark .hobbies__item__name {
-  color: #24283b;
-}
-body.dark .hobbies h2 {
- color: #dadef1;
-}
+
 .hobbies__item__img {
   width: 50%;
   margin-top: 5%;

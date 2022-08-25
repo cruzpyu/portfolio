@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="./assets/css/projects.css" />
     <link rel="stylesheet" href="./assets/css/contact.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
-    <link rel="stylesheet" href="./assets/css/toggle-theme.css">
+    <link rel="stylesheet" href="./assets/css/toggle-theme.css" />
+    <link rel="stylesheet" href="./assets/css/dark.css" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -33,18 +34,18 @@
     <header class="header">
       <img class="logo" src="assets/img/name.png" alt="" />
       <div class="toggle-theme">
-        <input type="checkbox" id="chk" class="toggle-checkbox">
-      <label class="toggle-label" for="chk">
-        <i class="fa-solid fa-moon"></i>
-        <i class="fa-solid fa-sun"></i>
-  <div class="toggle-ball"></div>
-      </label>
-    </div>
+        <input type="checkbox" id="chk" class="toggle-checkbox" />
+        <label class="toggle-label" for="chk">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+          <div class="toggle-ball"></div>
+        </label>
+      </div>
       <nav class="header__nav">
         <input type="checkbox" name="" id="check" />
         <label class="checkbox__label" for="check">&#8801;</label>
         <ul class="header__menu">
-          <li class="header__menu__item"><a  href="#about">Sobre</a></li>
+          <li class="header__menu__item"><a href="#about">Sobre</a></li>
           <li class="header__menu__item"><a href="#hobbies">Hobbies</a></li>
           <li class="header__menu__item"><a href="#courses">Formações</a></li>
           <li class="header__menu__item"><a href="#skills">Ferramentas</a></li>
@@ -52,7 +53,6 @@
           <li class="header__menu__item"><a href="#contact">Contato</a></li>
         </ul>
       </nav>
-
     </header>
     <main>
       <section class="presentation" id="hero">
@@ -61,10 +61,15 @@
           <div class="image">
             <img src="./assets/img/other__me.png" alt="" />
           </div>
-          <h3 class="txt">Sou uma desenvolvedora <mark class="purple">Front-end</mark>.</h3>
+          <h3 class="txt">
+            Sou uma desenvolvedora <mark class="purple">Front-end</mark>.
+          </h3>
         </div>
+        <hr>
       </section>
+     
       <section id="about" class="about">
+     
         <div class="about__text">
           <h2>Sobre mim</h2>
           <p>Tenho 24 anos e moro em Sobral, no Ceará.</p>
@@ -78,7 +83,7 @@
             <mark>respeitar os meus desejos</mark>.
           </p>
           <img class="about__image" src="./assets/img/coding.png" alt="" />
-         <p>
+          <p>
             Sempre fui apaixonada por tecnologia, e foi então que dedici dar vez
             a um antigo sonho de <mark class="blue">aprender a programar</mark>!
           </p>
@@ -97,35 +102,35 @@
         </p>
         <ul class="skills__list">
           <li class="skills__item">
-            <i class="fa-brands fa-html5"></i>
+            <img class="skills-img" src="./assets/img/tools/html.svg" alt="">
             <p class="skills__name">HTML5</p>
           </li>
           <li class="skills__item">
-            <i class="fa-brands fa-css3-alt"></i>
+            <img  class="skills-img" src="./assets/img/tools/css.svg" alt="">
             <p class="skills__name">CSS3</p>
           </li>
           <li class="skills__item">
-            <i class="fa-brands fa-sass"></i>
+            <img  class="skills-img" src="./assets/img/tools/sass.svg" alt="">
             <p class="skills__name">SCSS</p>
           </li>
           <li class="skills__item">
-            <i class="fa-brands fa-bootstrap"></i>
+            <img  class="skills-img" src="./assets/img/tools/bootstrap.svg" alt="">
             <p class="skills__name">Bootstrap</p>
           </li>
           <li class="skills__item">
-            <i class="fa-brands fa-js"></i>
+            <img  class="skills-img" src="./assets/img/tools/js.svg" alt="">
             <p class="skills__name">Javascript</p>
           </li>
           <li class="skills__item">
-            <i class="fa-brands fa-react"></i>
+            <img  class="skills-img" src="./assets/img/tools/react.svg" alt="">
             <p class="skills__name">React</p>
           </li>
           <li class="skills__item">
-            <i class="fa-brands fa-node"></i>
+            <img  class="skills-img" src="./assets/img/tools/nodejs.svg" alt="">
             <p class="skills__name">Node.js</p>
           </li>
           <li class="skills__item">
-            <i class="fa-brands fa-git-alt"></i>
+        <img  class="skills-img" src="./assets/img/tools/git.svg" alt="">
             <p class="skills__name">Git</p>
           </li>
         </ul>
@@ -226,8 +231,18 @@
       <div>
         <h2>Projetos</h2>
         <p class="projects__subtitle">
-          Aqui estão alguns projetos que construí ou colaborei. </p>
-          <p class="projects__subtitle">Você pode encontrar mais no meu <a class="projects__subtitle__link" href="https://github.com/cruzpyu"> GitHub <i class="fa-brands fa-github-alt"></i></a>, ou acessar meu <a class="projects__subtitle__link" href="https://drive.google.com/file/d/1jcKdBjFrazpuNEus6wujM3TF5rcj6Qrx/view?usp=sharing">currículo em PDF <i class="fa-regular fa-file"></i></a>.
+          Aqui estão alguns projetos que construí ou colaborei.
+        </p>
+        <p class="projects__subtitle">
+          Você pode encontrar mais no meu
+          <a class="projects__subtitle__link" href="https://github.com/cruzpyu">
+            GitHub <i class="fa-brands fa-github-alt"></i></a
+          >, ou acessar meu
+          <a
+            class="projects__subtitle__link"
+            href="https://drive.google.com/file/d/1jcKdBjFrazpuNEus6wujM3TF5rcj6Qrx/view?usp=sharing"
+            >currículo em PDF <i class="fa-regular fa-file"></i></a
+          >.
         </p>
       </div>
 
@@ -329,8 +344,7 @@
         <h2>Obrigada por visitar meu portfólio!</h2>
         <h3>
           Caso tenha interesse pelo meu trabalho, você pode entrar em contato
-          comigo através das minhas redes, ou deixando uma mensagem por
-          aqui. (:
+          comigo através das minhas redes, ou deixando uma mensagem por aqui. (:
         </h3>
         <ul class="contact__social__list">
           <li class="contact__social__item">

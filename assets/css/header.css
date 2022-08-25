@@ -10,6 +10,8 @@
 
 .logo {
   width: 18%;
+  position: relative;
+  left: 40%;
 }
 
 .header__nav {
@@ -29,12 +31,6 @@
   text-align: center;
   width: 60%;
   transition: all 0.6s ease-out;
-}
-body.dark .header__menu {
-  background-color: #24283b;
-}
-body.dark .header__menu li a{
-color:#dadef1;
 }
 .header__menu li {
   border-bottom: 1px solid silver;

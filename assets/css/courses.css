@@ -3,12 +3,13 @@
 }
 .courses__item {
   list-style-type: none;
-  border-bottom: 1px solid silver;
   display: flex;
   align-items: center;
-  padding: 4% 2%;
-  background-color: rgb(241, 238, 238);
+  padding: 7% 2%;
   margin-top: 7%;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0.2px .9px .9px silver;
 }
 .institution {
   font-weight: bold;
@@ -33,18 +34,7 @@
 .course {
   font-size: 0.8em;
 }
-body.dark .courses h2 {
-  color: #dadef1;
-}
 
-body.dark .hobbies__item__name,
-body.dark .course {
-  color: #24283b;
-}
-
-body.dark .courses__item {
-  background-color: #dadef1;
-}
 @media (min-width: 425px) {
   .courses h2 {
     font-size: 1.3em;

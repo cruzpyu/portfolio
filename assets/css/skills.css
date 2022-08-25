@@ -11,41 +11,33 @@
   flex-wrap: wrap;
 }
 .skills__item {
-  padding: 4%;
-  margin: 4% auto;
-  border: 1px solid silver;
-  border-radius: 3px;
-  background-color: rgb(241, 238, 238);
-  box-shadow: 0.2px 0.3px 0.5px grey;
-  list-style: none;
-  text-align: center;
   width: 45%;
-}
-body.dark .skills__item {
- background-color: #dadef1;
+  list-style: none;
+  padding: 4% 2%;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0.2px .9px .9px silver;
+  margin: 2%;
+  justify-content: center;
+  text-align: center;
 }
 
-body.dark .skills__item p,
-body.dark .skills__item i {
-color: #24283b;
-}
-body.dark .skills__subtitle,
-body.dark .skills h2 {
-  color: #dadef1;
-}
 .skills__item:hover {
-  transform: scale(1.02);
-  border-color: goldenrod;
+  background-color: rgb(243, 242, 242);
 }
+
 .skills p {
-  line-height: 1.5em;
-  font-size: 0.9em;
+  font-weight: 600;
+  font-size: 0.7em;
   margin: 3% 0;
 }
-.skills__item i {
-  font-size: 3.5em;
-  margin-bottom: 10%;
+.skills-img {
+  height: 60px;
 }
+.skills h2 {
+  margin:  0;
+}
+
 @media (min-width: 375px) {
   .skills h2 {
     font-size: 1.2em;
@@ -64,9 +56,6 @@ body.dark .skills h2 {
     margin-top: 5%;
   }
   .skills__item {
-    padding: 3%;
-    margin: 2%;
-    width: 20%;
   }
 }
 @media (min-width: 1024px) {
@@ -77,23 +66,24 @@ body.dark .skills h2 {
 }
 @media (min-width: 1200px) {
   .skills {
-    margin-top: 5%;
+    margin-top: 1%;
   }
   .skills h2 {
     font-size: 2em;
   }
   .skills__subtitle {
     font-size: 1em;
+    margin: 0;
   }
   .skills__item {
-    padding: 3%;
-    margin: 2%;
-    border: 1px solid silver;
-    background-color: transparent;
-    box-shadow: 0.2px 0.3px 0.5px grey;
-    width: 20%;
   }
   .skills__item i {
-    margin-bottom: 15%;
+    margin-bottom: 2%;
+    font-size: 4em;
+  }
+
+  p.skills__name {
+    font-size: 0.8em;
+    font-weight: bold;
   }
 }
