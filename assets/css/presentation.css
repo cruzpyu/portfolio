@@ -3,7 +3,9 @@
   padding: 15% 5%;
   margin-top: 3%;
 }
-
+body.dark .presentation__text h1 {
+  color:#dadef1;
+}
 .presentation__text h1 {
   font-size: 1.4em;
   margin-bottom: 0.1em;
@@ -15,6 +17,9 @@
   font-weight: 600;
   width: 86%;
   margin: auto;
+}
+body.dark .presentation__text h3 {
+  color:#dadef1;
 }
 .presentation__text p {
   width: 80%;

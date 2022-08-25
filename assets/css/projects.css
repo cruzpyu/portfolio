@@ -59,6 +59,23 @@
 .projects__subtitle__link:hover {
   color: goldenrod;
 }
+body.dark .projects__item {
+  background-color: #dadef1;
+}
+
+body.dark .skills__item p,
+body.dark .skills__item i {
+  color: #24283b;
+}
+body.dark .projects__subtitle,
+body.dark .projects__subtitle a,
+body.dark .experience h2,
+body.dark .projects__subtitle__link {
+  color: #dadef1;
+}
+body.dark .projects__subtitle__link {
+  border-bottom: 1px solid #dadef1;;
+}
 @media (min-width: 425px) {
   .experience h2 {
     font-size: 1.3em;

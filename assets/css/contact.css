@@ -74,7 +74,18 @@ form button {
 .contact ul li:first-child {
   margin-left: 0;
 }
-
+body.dark .contact h2, 
+body.dark .contact h3, 
+body.dark .contact i,
+body.dark .contact label
+{
+  color: #dadef1;
+}
+body.dark .contact input,
+body.dark .contact textarea,
+body.dark .contact button {
+background-color: #dadef1; 
+}
 @media (min-width: 768px) {
   .contact {
     display: flex;
@@ -119,6 +130,7 @@ form button {
     width: 40%;
   }
 }
+
 @media (min-width: 1024px) {
   .contact {
     display: flex;

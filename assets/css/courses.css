@@ -13,7 +13,7 @@
 .institution {
   font-weight: bold;
   margin-bottom: 1%;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 .course,
 .courses h2 {
@@ -31,7 +31,19 @@
   line-height: 1.5em;
 }
 .course {
-  font-size: .8em;
+  font-size: 0.8em;
+}
+body.dark .courses h2 {
+  color: #dadef1;
+}
+
+body.dark .hobbies__item__name,
+body.dark .course {
+  color: #24283b;
+}
+
+body.dark .courses__item {
+  background-color: #dadef1;
 }
 @media (min-width: 425px) {
   .courses h2 {
@@ -58,10 +70,10 @@
     width: 45%;
   }
   .course,
-.institution {
-  width: 90%;
-  line-height: 1.5em;
-}
+  .institution {
+    width: 90%;
+    line-height: 1.5em;
+  }
 }
 @media (min-width: 1024px) {
   .courses {
@@ -87,7 +99,7 @@
   .institution-logo {
     width: 5em;
   }
-  .course{
+  .course {
     width: 100%;
   }
 }
