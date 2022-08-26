@@ -115,6 +115,7 @@ body.dark .contact textarea
 body.dark .contact button {
     background-color: var(--white);
     box-shadow: 1px 1px 1px var(--dark-purple);
+    color: #1b1e2d;
 }
 body.dark .contact button a {
     color: #1b1e2d;
