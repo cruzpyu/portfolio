@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --dark-purple: #24283b;
+    --soft-white: #a9b1d6;
+}
+body {
+    background-color: var(--dark-purple);
+}
+.success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "montserrat", sans-serif;
+    padding: 10% 8%;
+    text-align: center;
+}
+.success__img {
+    width: 50%;
+    margin-bottom: 10%;
+}
+.success__link {
+    text-decoration: none;
+    color: var(--soft-white);
+}
+.success__title,
+.success__subtitle {
+    color: var(--soft-white);
+}
+.success__title {
+    margin-bottom: 2%;
+    font-size: 1em;
+}
+.success__subtitle {
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.success__btn {
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--soft-white);
+    font-size: 0.8em;
+    margin-top: 8%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.success__btn:hover {
+    background-color: var(--soft-white);
+    border: none;
+}
+.success__btn:active {
+    background-color: #8990b0;
+}
+.success__btn:hover .success__link {
+    color: var(--dark-purple);
+}
+
+@media (min-width: 425px) {
+    .success__title {
+        font-size: 1.1em;
+    }
+    .success__subtitle {
+        font-size: 1em;
+    }
+    .success__link {
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 768px) {
+    .success__title {
+        font-size: 1.2em;
+    }
+    .success__subtitle {
+        font-size: 1.1em;
+        width: 80%;
+    }
+    .success__link {
+        font-size: 1.2em;
+    }
+    .success__btn {
+        width: 20%;
+    }
+    .success__img {
+        width: 30%;
+    }
+}
+@media (min-width: 1024px) {
+    .success__title {
+        font-size: 1.4em;
+    }
+    .success__subtitle {
+        font-size: 1.1em;
+        width: 60%;
+    }
+    .success__link {
+        font-size: 1.2em;
+    }
+    .success__btn {
+        width: 15%;
+        height: 40px;
+        margin-top: 4%;
+    }
+    .success__img {
+        width: 20%;
+        margin: 0 auto 5%;
+    }
+}
+@media (min-width: 1200px) {
+    .success {
+        padding: 3% 0;
+    }
+    .success__title {
+        font-size: 1.5em;
+    }
+    .success__subtitle {
+        font-size: 1.1em;
+        width: 30%;
+    }
+    .success__link {
+        font-size: 1.2em;
+    }
+    .success__btn {
+        width: 10%;
+        height: 50px;
+    }
+    .success__img {
+        width: 15%;
+        margin-bottom: 3%;
+    }
+}
