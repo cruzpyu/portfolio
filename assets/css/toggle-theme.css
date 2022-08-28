@@ -37,3 +37,10 @@
 .toggle-checkbox:checked + .toggle-label .toggle-ball{
     transform: translateX(15px);
 }
+
+@media (min-width: 768px) {
+    .toggle-theme {
+        position: relative;
+        left: -7%;
+    }
+}

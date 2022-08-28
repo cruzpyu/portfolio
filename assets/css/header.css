@@ -70,8 +70,9 @@ label {
 }
 @media (min-width: 768px) {
   .logo {
-    width: 9%;
-  }
+      width: 8%; 
+      left: 47%;
+    }
 }
 @media (min-width: 1024px) {
   .logo {
