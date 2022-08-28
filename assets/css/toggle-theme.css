@@ -44,3 +44,17 @@
         left: -7%;
     }
 }
+
+@media (min-width: 1024px) {
+    .toggle-theme {
+        position: relative;
+        left: 800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .toggle-theme {
+        position: relative;
+        left: 90px;
+    }
+}

@@ -2,8 +2,7 @@
   margin-top: 7%;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
+  align-items: center;
   padding: 3% 5% 10%;
 }
 .skills__list {
@@ -35,11 +34,13 @@ p.skills__name {
 }
 .skills h2 {
   margin: 0;
+  align-self: flex-start;
 }
 p.skills__subtitle {
   font-size: 1em;
   line-height: 1.5em;
   margin: 4% 0;
+  align-self: flex-start;
 }
 @media (min-width: 375px) {
   .skills h2 {
@@ -48,28 +49,53 @@ p.skills__subtitle {
 }
 @media (min-width: 425px) {
   .skills p {
-    font-size: 1em;
+    font-size: .9em;
+    font-weight: normal;
   }
   .skills h2 {
     font-size: 1.3em;
   }
+  .skills__item {
+    width: 176px;
+  }
 }
 @media (min-width: 768px) {
   .skills {
-    margin-top: 5%;
+    margin-top:0;
+    padding: 4%;
   }
   .skills__item {
+    width: 148px;
+    padding: 4% 2%;
+  }
+  .skills-img {
+    width: 60px;
+  }
+  p.skills__name {
+    margin-top: 10%;
+    font-size: .9em;
+    font-weight: normal;
+  }
+  p.skills__subtitle {
+    margin: 2% 0;
   }
 }
 @media (min-width: 1024px) {
   .skills {
     margin: 0;
-    padding-bottom: 0;
+    padding: 0 5%;
+  }
+  p.skills__subtitle {
+    font-size: 1em;
+  }
+  .skills__item {
+    width: 190px;
+    padding: 3% 2%;
   }
 }
 @media (min-width: 1200px) {
   .skills {
-    margin-top: 1%;
+    margin-top: 7%;
   }
   .skills h2 {
     font-size: 2em;
@@ -79,10 +105,13 @@ p.skills__subtitle {
     margin: 0;
   }
   .skills__item {
+  width: 260px;
+  margin: 2% 3%;
   }
 
   p.skills__name {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
+    margin: 5% 0 0;
   }
 }

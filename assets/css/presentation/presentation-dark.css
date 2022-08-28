@@ -1,0 +1,9 @@
+body.dark .presentation__text h1 {
+    color: var(--white);
+}
+body.dark .presentation {
+    background-color: var(--dark-purple);
+}
+body.dark .presentation__text h3 {
+    color: var(--white);
+}

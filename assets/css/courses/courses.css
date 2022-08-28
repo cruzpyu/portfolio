@@ -45,24 +45,29 @@
   }
 }
 @media (min-width: 768px) {
+  .courses {
+    margin: 0;
+    padding: 5%;
+  }
   .courses h2 {
     font-size: 1.3em;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
   }
   .courses__list {
     display: flex;
     flex-wrap: wrap;
   }
   .courses__item {
-    padding: 3%;
-    background-color: rgb(241, 238, 238);
+    padding:  2% 4%;
     margin: 2%;
-    width: 45%;
+    width: 46%;
+    height: 160px;
   }
   .course,
   .institution {
-    width: 90%;
-    line-height: 1.5em;
+    width: 100%;
+    line-height: 1.3em;
+    font-size: .9em;
   }
 }
 @media (min-width: 1024px) {
@@ -81,15 +86,19 @@
     flex-wrap: wrap;
   }
   .courses__item {
-    padding: 3%;
-    background-color: rgb(241, 238, 238);
-    margin: 2%;
+    padding: 2% 3%;
+    background-color: #fff;
+    margin: 2% 2.5%;
     width: 45%;
   }
   .institution-logo {
     width: 5em;
   }
-  .course {
-    width: 100%;
+  .institution{
+    font-size: 1.1em;
   }
+  .course {
+    font-size: 1em;
+  }
+
 }

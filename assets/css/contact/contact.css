@@ -37,7 +37,7 @@ form textarea {
 }
 form button {
   background-color: whitesmoke;
-  border: 1px solid var(--dark-purple);
+  border: 1px solid silver;
   border-radius: 5px;
   box-shadow: 0 .5px 2px grey;
   font-size: 1em;
@@ -83,6 +83,7 @@ form button {
     display: flex;
     align-items: flex-start;
     width: 95%;
+    padding-top: 3%;
   }
   .contact__div {
     width: 50%;
@@ -126,12 +127,12 @@ form button {
 @media (min-width: 1024px) {
   .contact {
     display: flex;
-    padding-top: 10%;
     align-items: flex-start;
   }
   .contact__div {
     width: 50%;
     text-align: left;
+    margin-left: 4%;
   }
   .contact h2 {
     font-size: 2em;
@@ -189,7 +190,7 @@ form button {
 @media (min-width: 1200px) {
   .contact {
     display: flex;
-    padding-top: 10%;
+    padding: 7% 0 3%;
     align-items: flex-start;
   }
   .contact__div {

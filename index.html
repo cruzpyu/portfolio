@@ -9,17 +9,27 @@
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/presentation.css" />
-    <link rel="stylesheet" href="./assets/css/about.css" />
-    <link rel="stylesheet" href="./assets/css/skills.css" />
-    <link rel="stylesheet" href="./assets/css/hobbies.css" />
-    <link rel="stylesheet" href="./assets/css/courses.css" />
-    <link rel="stylesheet" href="./assets/css/projects.css" />
-    <link rel="stylesheet" href="./assets/css/contact.css" />
-    <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/toggle-theme.css" />
-    <link rel="stylesheet" href="./assets/css/dark.css" />
+    <link rel="stylesheet" href="./assets/css/header/header.css" />
+    <link rel="stylesheet" href="./assets/css/header/header-dark.css" />
+    <link rel="stylesheet" href="./assets/css/presentation/presentation.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/presentation/presentation-dark.css"
+    />
+    <link rel="stylesheet" href="./assets/css/about/about.css" />
+    <link rel="stylesheet" href="./assets/css/about/about-dark.css" />
+    <link rel="stylesheet" href="./assets/css/skills/skills.css" />
+    <link rel="stylesheet" href="./assets/css/skills/skills-dark.css" />
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies.css" />
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies-dark.css" />
+    <link rel="stylesheet" href="./assets/css/courses/courses.css" />
+    <link rel="stylesheet" href="./assets/css/courses/courses-dark.css" />
+    <link rel="stylesheet" href="./assets/css/projects/projects.css" />
+    <link rel="stylesheet" href="./assets/css/projects/projects-dark.css" />
+    <link rel="stylesheet" href="./assets/css/contact/contact.css" />
+    <link rel="stylesheet" href="./assets/css/contact/contact-dark.css" />
+    <link rel="stylesheet" href="./assets/css/footer/footer.css" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -46,9 +56,9 @@
         <label class="checkbox__label" for="check">&#8801;</label>
         <ul class="header__menu">
           <li class="header__menu__item"><a href="#about">Sobre</a></li>
+          <li class="header__menu__item"><a href="#skills">Ferramentas</a></li>
           <li class="header__menu__item"><a href="#hobbies">Hobbies</a></li>
           <li class="header__menu__item"><a href="#courses">Formações</a></li>
-          <li class="header__menu__item"><a href="#skills">Ferramentas</a></li>
           <li class="header__menu__item"><a href="#projects">Projetos</a></li>
           <li class="header__menu__item"><a href="#contact">Contato</a></li>
         </ul>
@@ -65,11 +75,10 @@
             Sou uma desenvolvedora <mark class="purple">Front-end</mark>.
           </h3>
         </div>
-        <hr>
+        <hr />
       </section>
-     
+
       <section id="about" class="about">
-     
         <div class="about__text">
           <h2>Sobre mim</h2>
           <p>Tenho 24 anos e moro em Sobral, no Ceará.</p>
@@ -102,41 +111,52 @@
         </p>
         <ul class="skills__list">
           <li class="skills__item">
-            <img class="skills-img" src="./assets/img/tools/html.svg" alt="">
+            <img class="skills-img" src="./assets/img/tools/html.svg" alt="" />
             <p class="skills__name">HTML5</p>
           </li>
           <li class="skills__item">
-            <img  class="skills-img" src="./assets/img/tools/css.svg" alt="">
+            <img class="skills-img" src="./assets/img/tools/css.svg" alt="" />
             <p class="skills__name">CSS3</p>
           </li>
           <li class="skills__item">
-            <img  class="skills-img" src="./assets/img/tools/sass.svg" alt="">
+            <img class="skills-img" src="./assets/img/tools/sass.svg" alt="" />
             <p class="skills__name">SCSS</p>
           </li>
           <li class="skills__item">
-            <img  class="skills-img" src="./assets/img/tools/bootstrap.svg" alt="">
+            <img
+              class="skills-img"
+              src="./assets/img/tools/bootstrap.svg"
+              alt=""
+            />
             <p class="skills__name">Bootstrap</p>
           </li>
           <li class="skills__item">
-            <img  class="skills-img" src="./assets/img/tools/js.svg" alt="">
+            <img class="skills-img" src="./assets/img/tools/js.svg" alt="" />
             <p class="skills__name">Javascript</p>
           </li>
           <li class="skills__item">
-            <img  class="skills-img" src="./assets/img/tools/react.svg" alt="">
+            <img class="skills-img" src="./assets/img/tools/react.svg" alt="" />
             <p class="skills__name">React</p>
           </li>
           <li class="skills__item">
-            <img  class="skills-img" src="./assets/img/tools/nodejs.svg" alt="">
+            <img
+              class="skills-img"
+              src="./assets/img/tools/nodejs.svg"
+              alt=""
+            />
             <p class="skills__name">Node.js</p>
           </li>
           <li class="skills__item">
-        <img  class="skills-img" src="./assets/img/tools/git.svg" alt="">
+            <img class="skills-img" src="./assets/img/tools/git.svg" alt="" />
             <p class="skills__name">Git</p>
           </li>
         </ul>
       </section>
       <section id="hobbies" class="hobbies">
-        <h2>Hobbies</h2>
+        <h2 class="hobbies__title">Hobbies</h2>
+        <p class="hobbies__subtitle">
+          Coisas que geralmente prendem minha atenção quando não estou codando.
+        </p>
         <ul class="hobbies__list">
           <li class="hobbies__item">
             <img
@@ -231,10 +251,8 @@
       <div>
         <h2>Projetos</h2>
         <p class="projects__subtitle">
-          Aqui estão alguns projetos que construí ou colaborei.
-        </p>
-        <p class="projects__subtitle">
-          Você pode encontrar outros no meu
+          Aqui estão alguns projetos que construí ou colaborei. Você pode
+          encontrar outros no meu
           <a class="projects__subtitle__link" href="https://github.com/cruzpyu">
             GitHub</a
           >, ou acessar meu

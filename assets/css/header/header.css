@@ -70,13 +70,17 @@ label {
 }
 @media (min-width: 768px) {
   .logo {
-      width: 8%; 
-      left: 47%;
-    }
+    width: 8%;
+    left: 47%;
+  }
 }
 @media (min-width: 1024px) {
   .logo {
     width: 6%;
+    left: 1%;
+  }
+  .header__menu {
+    width: 35%;
   }
 }
 @media (min-width: 1200px) {
@@ -95,21 +99,26 @@ label {
     list-style: none;
     padding: 0;
     position: relative;
-    right: 0;
+    right: 170px;
     top: 0;
   }
-
+  #check:checked ~ .header__menu {
+    right: 170px;
+  }
   .header__menu li {
-    border: none;
+    border-bottom: none;
+    width: 100%;
     padding: 0;
-    font-size: 0.9em;
     margin: 0;
+    color: var(--dark-purple);
+    font-size: 0.9em;
+    box-shadow: none;
+    font-weight: 500;
+  }
+  .header__menu li a {
+    margin-left: 50px;
   }
 
-  .header__menu li a {
-    margin: -100px;
-  }
- 
   .checkbox__label {
     display: none;
   }

@@ -1,0 +1,23 @@
+body.dark .header__menu {
+    background-color: var(--dark-purple);
+}
+body.dark .header__menu li {
+  box-shadow: 1px 3px 5px #1b1e2d;
+  border: 1px solid #1b1e2d;
+}
+body.dark .header__menu li a {
+    color: var(--white);
+}
+
+@media (min-width: 1200px) {
+    body.dark .header__menu {
+        background-color: transparent;
+    }
+    body.dark .header__menu li {
+      box-shadow: none;
+      border: none;
+    }
+    body.dark .header__menu li a {
+        color: var(--dark-purple);
+    } 
+}

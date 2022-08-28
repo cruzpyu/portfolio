@@ -1,0 +1,11 @@
+body.dark .hobbies__item {
+    background-color: #a9b1d638;
+    box-shadow: 1px 1px 1px black;
+}
+body.dark .hobbies__item p {
+    color: var(--white);
+    font-weight: 400;
+}
+body.dark .hobbies h2 {
+    color: var(--white);
+}

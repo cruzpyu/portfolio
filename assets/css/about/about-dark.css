@@ -1,0 +1,11 @@
+body.dark .about__text {
+    color: var(--white);
+}
+body.dark .about__text p,
+body.dark .about__text h2 {
+    color: var(--white);
+}
+
+body.dark .about {
+    background-color: var(--dark-purple);
+}

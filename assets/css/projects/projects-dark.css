@@ -1,0 +1,24 @@
+body.dark .projects__item {
+    background-color: #a9b1d638;
+    box-shadow: 1px 1px 1px black;
+    border: none;
+}
+body.dark .projects__subtitle,
+body.dark .projects__subtitle a,
+body.dark .experience h2,
+body.dark .projects__subtitle__link,
+body.dark .projects__item__description,
+body.dark .projects__item__title {
+    color: var(--white);
+}
+body.dark .projects__item button {
+    background-color: var(--white);
+    box-shadow: 1px 1px 1px var(--dark-purple);
+}
+body.dark .projects__item a {
+    color: #1b1e2d;
+    font-weight: 400;
+}
+body.dark .projects__subtitle__link {
+    border-bottom: 1px solid var(--white);
+}
