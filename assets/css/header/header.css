@@ -38,7 +38,10 @@
 }
 .header__menu li a {
   text-decoration: none;
-  color: black;
+  color: var(--dark-purple);
+}
+.header__menu li a:hover {
+  color: #6282c7;
 }
 /* Hamburguer Menu */
 #check {
@@ -57,6 +60,7 @@ label {
     padding: 8px 20px;
   }
   .logo {
+    width: 15%;
     left: 44%;
   }
   .checkbox__label {
@@ -64,14 +68,18 @@ label {
   }
 }
 @media (min-width: 425px) {
+  .logo {
+    width: 12%;
+    left: 47%;
+  }
   .header {
     padding: 10px 20px;
   }
 }
 @media (min-width: 768px) {
   .logo {
-    width: 8%;
-    left: 47%;
+    width: 7%;
+    left: 48%;
   }
 }
 @media (min-width: 1024px) {

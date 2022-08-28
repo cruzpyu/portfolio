@@ -8,7 +8,9 @@ body.dark .header__menu li {
 body.dark .header__menu li a {
     color: var(--white);
 }
-
+body.dark .header__menu li a:hover {
+    color: var(--white);
+  }
 @media (min-width: 1200px) {
     body.dark .header__menu {
         background-color: transparent;

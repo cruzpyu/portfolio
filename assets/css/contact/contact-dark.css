@@ -4,6 +4,9 @@ body.dark .contact i,
 body.dark .contact label {
     color: var(--white);
 }
+body.dark .contact i:hover {
+    color: #ced6fa;
+}
 body.dark .contact input,
 body.dark .contact textarea
 {
@@ -17,6 +20,9 @@ body.dark .contact button {
     box-shadow: 1px 1px 1px var(--dark-purple);
     color: #1b1e2d;
 }
+body.dark form button:hover {
+    background-color:#b3bce4;
+  }
 body.dark .contact button a {
     color: #1b1e2d;
     font-weight: 400;

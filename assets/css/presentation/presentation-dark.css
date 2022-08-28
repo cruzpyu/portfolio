@@ -7,3 +7,6 @@ body.dark .presentation {
 body.dark .presentation__text h3 {
     color: var(--white);
 }
+body.dark .purple:hover {
+    background-color: var(--soft-purple);
+  }

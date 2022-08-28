@@ -37,10 +37,18 @@
 .toggle-checkbox:checked + .toggle-label .toggle-ball{
     transform: translateX(15px);
 }
-
+@media (min-width: 375px) {
+    .toggle-theme {
+        left: -13%;
+    }
+}
+@media (min-width: 425px) {
+    .toggle-theme {
+        left: -10%;
+    }
+}
 @media (min-width: 768px) {
     .toggle-theme {
-        position: relative;
         left: -7%;
     }
 }

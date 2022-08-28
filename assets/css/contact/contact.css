@@ -9,6 +9,9 @@
   width: 100%;
   color: var(--dark-purple);
 }
+.contact i:hover {
+color: #454d70;
+}
 
 form {
   display: flex;
@@ -49,8 +52,12 @@ form button {
   align-items: center;
   justify-content: center;
   color: var(--dark-purple);
+  cursor: pointer;
 }
-
+form button:hover {
+  background-color: var(--dark-purple);
+  color: var(--white);
+}
 .contact h3 {
   text-align: justify;
   line-height: 1.5em;

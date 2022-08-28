@@ -27,6 +27,9 @@
 .purple {
   background-color: #b1bce6;
 }
+.purple:hover {
+  background-color: var(--soft-purple);
+}
 
 .presentation hr {
   display: none;

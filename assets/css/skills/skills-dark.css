@@ -2,9 +2,12 @@ body.dark .skills__item {
     background-color: #a9b1d638;
     box-shadow: 1px 1px 1px black;
 }
-
+body.dark .skills__item:hover {
+    background-color: #a9b1d663;
+}
 body.dark p.skills__name {
     color: var(--white);
+    border-top: 1px solid var(--dark-purple) ;
 }
 body.dark .skills__subtitle,
 body.dark .skills h2 {
